@@ -1,0 +1,14 @@
+a	1.5
+b	60
+psi	-0.05
+FCx	-0.9
+FCy	0
+Scalex	0.4
+Scaley	-0.25
+Shearx	0
+Sheary	0
+V1Size	0.99
+V2Size	0.79
+V3Size	0.38
+HV4Size	0.3
+lambda	2.5

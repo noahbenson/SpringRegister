@@ -3,7 +3,13 @@
 ## Authors #####################################################################
 
 Primary Author: [Noah C. Benson](mailto:n@nben.net)
+
 Principle Investigator: [Geoffrey K. Aguirre](mailto:aguirreg@mail.med.upenn.edu)
+
+## Website #####################################################################
+
+The [Aguirre lab website](https://cfn.upenn.edu/aguirre/wiki/public:data_ploscomputbiol_2014_benson)
+contains further information concerning this project.
 
 ## Citation ####################################################################
 

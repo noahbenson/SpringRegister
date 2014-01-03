@@ -1,0 +1,172 @@
+================================================================================
+Beginning simulation on Fri Jul 26 15:11:34 2013
+Input file:  jobs/aggregate-lh/start.bin
+Output file: results/aggregate-lh/result.bin
+Added 321694 springs to 40828 atoms (7.87925 springs per atom).
+Starting simulation...
+Initializing fields...
+Initial potential energy: PE0 = 97.9167
+Schira:{a = 1.5; b = 60; psi = -0.05; shear = [1 0; 0 1]; scale = [0.4 -0.25]; fc = [-0.9 0]; sizes = [0.99 0.79 0.38]; lambda = 2.5}
+Minimizing data to Schira model...
+	New PE0 = 67.4366 (30.4801)
+Heating system to goal KE = 5
+Running simulated annealing step 1:
+	KE0 = 5;	PE0 = 67.4366;	E0 = 72.4366
+Opening journal file: results/aggregate-lh/t=00.0.bin
+Rescaling energies at step 30 (T = 0.06): KE = 11.1394; PE = 65.0977
+	Cooled KE by -6.29476; new KE = 4.84468
+Rescaling energies at step 50 (T = 0.1): KE = 12.8376; PE = 62.209
+	Cooled KE by -4.67308; new KE = 8.16452
+Rescaling energies at step 70 (T = 0.14): KE = 18.8371; PE = 58.3753
+	Cooled KE by -8.31984; new KE = 10.5173
+Rescaling energies at step 90 (T = 0.18): KE = 22.2997; PE = 54.1344
+	Cooled KE by -7.24839; new KE = 15.0513
+Rescaling energies at step 110 (T = 0.22): KE = 28.1033; PE = 49.3928
+	Cooled KE by -9.1703; new KE = 18.9331
+Rescaling energies at step 130 (T = 0.26): KE = 32.3964; PE = 44.3702
+	Cooled KE by -8.03255; new KE = 24.3638
+Rescaling energies at step 150 (T = 0.3): KE = 38.0819; PE = 39.2427
+	Cooled KE by -9.09062; new KE = 28.9913
+Rescaling energies at step 170 (T = 0.34): KE = 42.303; PE = 34.2985
+	Cooled KE by -7.85075; new KE = 34.4522
+Rescaling energies at step 190 (T = 0.38): KE = 47.1339; PE = 29.6583
+	Cooled KE by -8.23096; new KE = 38.9029
+Rescaling energies at step 210 (T = 0.42): KE = 50.3741; PE = 25.4289
+	Cooled KE by -6.41989; new KE = 43.9542
+Rescaling energies at step 230 (T = 0.46): KE = 53.7641; PE = 22.1086
+	Cooled KE by -6.55816; new KE = 47.2059
+Rescaling energies at step 250 (T = 0.5): KE = 54.7266; PE = 19.7814
+	Cooled KE by -3.96299; new KE = 50.7636
+Rescaling energies at step 270 (T = 0.54): KE = 55.7694; PE = 18.7581
+	Cooled KE by -3.9999; new KE = 51.7695
+Simulation stable at step 1000 (T = 2):	KE = 32.9576;	PE = 22.0061	[PEf = 14.9908; PEs = 7.01531]
+Transitioning to journal file: results/aggregate-lh/t=00.1.bin
+Simulation stable at step 2000 (T = 4):	KE = 21.2011;	PE = 22.3253	[PEf = 15.3752; PEs = 6.95009]
+Transitioning to journal file: results/aggregate-lh/t=00.2.bin
+Simulation stable at step 3000 (T = 6):	KE = 19.77;	PE = 20.7732	[PEf = 14.2849; PEs = 6.4883]
+Transitioning to journal file: results/aggregate-lh/t=00.3.bin
+Simulation stable at step 4000 (T = 8):	KE = 19.8237;	PE = 21.8422	[PEf = 15.1273; PEs = 6.71485]
+Transitioning to journal file: results/aggregate-lh/t=00.4.bin
+Simulation stable at step 5000 (T = 10):	KE = 20.2108;	PE = 21.3929	[PEf = 14.6307; PEs = 6.76222]
+Closing journal for annealing step.
+	Minimized PE by 5.84443;	 new PE = 15.5485
+Writing journal anneal minimum: results/aggregate-lh/min1.bin
+Writing journal RMSD: results/aggregate-lh/rmsd1.bin
+Heating system to goal KE = 5
+Running simulated annealing step 2:
+	KE0 = 5.57735;	PE0 = 15.5485;	E0 = 21.1258
+Opening journal file: results/aggregate-lh/t=01.0.bin
+Rescaling energies at step 240 (T = 10.48): KE = 8.43778; PE = 14.7835
+	Cooled KE by -3.66097; new KE = 4.77681
+Rescaling energies at step 530 (T = 11.06): KE = 8.8554; PE = 14.4566
+	Cooled KE by -3.82265; new KE = 5.03275
+Rescaling energies at step 830 (T = 11.66): KE = 9.00624; PE = 14.2771
+	Cooled KE by -3.78777; new KE = 5.21847
+Simulation stable at step 1000 (T = 12):	KE = 8.86677;	PE = 13.863	[PEf = 10.2247; PEs = 3.63835]
+Transitioning to journal file: results/aggregate-lh/t=01.1.bin
+Rescaling energies at step 1110 (T = 12.22): KE = 8.91312; PE = 14.29
+	Cooled KE by -3.65995; new KE = 5.25317
+Rescaling energies at step 1440 (T = 12.88): KE = 9.0441; PE = 14.1186
+	Cooled KE by -3.6042; new KE = 5.43991
+Rescaling energies at step 1700 (T = 13.4): KE = 9.10612; PE = 14.0871
+	Cooled KE by -3.65455; new KE = 5.45157
+Rescaling energies at step 1980 (T = 13.96): KE = 8.51732; PE = 14.7544
+	Cooled KE by -3.74162; new KE = 4.7757
+Simulation stable at step 2000 (T = 14):	KE = 5.32298;	PE = 14.5098	[PEf = 10.7851; PEs = 3.7247]
+Transitioning to journal file: results/aggregate-lh/t=01.2.bin
+Rescaling energies at step 2290 (T = 14.58): KE = 8.98458; PE = 14.1914
+	Cooled KE by -3.62182; new KE = 5.36276
+Rescaling energies at step 2590 (T = 15.18): KE = 8.64303; PE = 14.5386
+	Cooled KE by -3.61265; new KE = 5.03038
+Rescaling energies at step 2850 (T = 15.7): KE = 8.70681; PE = 14.4536
+	Cooled KE by -3.58351; new KE = 5.1233
+Simulation stable at step 3000 (T = 16):	KE = 8.69681;	PE = 13.5293	[PEf = 10.3022; PEs = 3.2271]
+Transitioning to journal file: results/aggregate-lh/t=01.3.bin
+Rescaling energies at step 3190 (T = 16.38): KE = 9.0065; PE = 14.1484
+	Cooled KE by -3.59016; new KE = 5.41634
+Rescaling energies at step 3480 (T = 16.96): KE = 9.06275; PE = 14.255
+	Cooled KE by -3.84331; new KE = 5.21944
+Rescaling energies at step 3780 (T = 17.56): KE = 8.77863; PE = 14.3573
+	Cooled KE by -3.54956; new KE = 5.22907
+Rescaling energies at step 3930 (T = 17.86): KE = 9.27758; PE = 13.9414
+	Cooled KE by -3.70296; new KE = 5.57462
+Simulation stable at step 4000 (T = 18):	KE = 6.64051;	PE = 13.5862	[PEf = 10.3721; PEs = 3.21411]
+Transitioning to journal file: results/aggregate-lh/t=01.4.bin
+Rescaling energies at step 4380 (T = 18.76): KE = 8.87272; PE = 14.3847
+	Cooled KE by -3.74079; new KE = 5.13193
+Rescaling energies at step 4700 (T = 19.4): KE = 8.70646; PE = 14.5027
+	Cooled KE by -3.65804; new KE = 5.04842
+Simulation stable at step 5000 (T = 20):	KE = 8.55444;	PE = 14.2804	[PEf = 10.7979; PEs = 3.48251]
+Closing journal for annealing step.
+	Minimized PE by 3.07366;	 new PE = 11.2068
+Writing journal anneal minimum: results/aggregate-lh/min2.bin
+Writing journal RMSD: results/aggregate-lh/rmsd2.bin
+Heating system to goal KE = 5
+Running simulated annealing step 3:
+	KE0 = 5.04754;	PE0 = 11.2068;	E0 = 16.2543
+Opening journal file: results/aggregate-lh/t=02.0.bin
+Rescaling energies at step 340 (T = 20.68): KE = 5.92596; PE = 12.334
+	Cooled KE by -3.32733; new KE = 2.59863
+Rescaling energies at step 680 (T = 21.36): KE = 6.38917; PE = 12.0127
+	Cooled KE by -3.56759; new KE = 2.82158
+Rescaling energies at step 980 (T = 21.96): KE = 6.33419; PE = 11.9398
+	Cooled KE by -3.38946; new KE = 2.94474
+Simulation stable at step 1000 (T = 22):	KE = 3.50893;	PE = 11.5946	[PEf = 8.64741; PEs = 2.94719]
+Transitioning to journal file: results/aggregate-lh/t=02.1.bin
+Rescaling energies at step 1270 (T = 22.54): KE = 6.05614; PE = 12.3814
+	Cooled KE by -3.57443; new KE = 2.48171
+Rescaling energies at step 1520 (T = 23.04): KE = 6.03318; PE = 12.2849
+	Cooled KE by -3.4163; new KE = 2.61688
+Rescaling energies at step 1710 (T = 23.42): KE = 6.22525; PE = 12.0318
+	Cooled KE by -3.35546; new KE = 2.86978
+Simulation stable at step 2000 (T = 24):	KE = 6.11468;	PE = 11.8236	[PEf = 9.11268; PEs = 2.7109]
+Transitioning to journal file: results/aggregate-lh/t=02.2.bin
+Rescaling energies at step 2040 (T = 24.08): KE = 6.27527; PE = 12.1234
+	Cooled KE by -3.55043; new KE = 2.72484
+Rescaling energies at step 2330 (T = 24.66): KE = 5.902; PE = 12.4217
+	Cooled KE by -3.40815; new KE = 2.49385
+Rescaling energies at step 2650 (T = 25.3): KE = 6.17032; PE = 12.181
+	Cooled KE by -3.47588; new KE = 2.69443
+Rescaling energies at step 2910 (T = 25.82): KE = 6.05959; PE = 12.3042
+	Cooled KE by -3.4794; new KE = 2.5802
+Simulation stable at step 3000 (T = 26):	KE = 5.26314;	PE = 11.49	[PEf = 8.97128; PEs = 2.51871]
+Transitioning to journal file: results/aggregate-lh/t=02.3.bin
+Rescaling energies at step 3210 (T = 26.42): KE = 6.14574; PE = 12.1731
+	Cooled KE by -3.43007; new KE = 2.71567
+Rescaling energies at step 3360 (T = 26.72): KE = 6.66225; PE = 11.6855
+	Cooled KE by -3.52283; new KE = 3.13943
+Rescaling energies at step 3730 (T = 27.46): KE = 6.4599; PE = 11.8736
+	Cooled KE by -3.48323; new KE = 2.97666
+Rescaling energies at step 3970 (T = 27.94): KE = 6.1314; PE = 12.1895
+	Cooled KE by -3.43119; new KE = 2.70021
+Simulation stable at step 4000 (T = 28):	KE = 3.52977;	PE = 11.9488	[PEf = 9.06357; PEs = 2.88523]
+Transitioning to journal file: results/aggregate-lh/t=02.4.bin
+Rescaling energies at step 4280 (T = 28.56): KE = 6.08699; PE = 12.262
+	Cooled KE by -3.46329; new KE = 2.6237
+Rescaling energies at step 4580 (T = 29.16): KE = 6.36755; PE = 11.9459
+	Cooled KE by -3.44652; new KE = 2.92104
+Rescaling energies at step 4890 (T = 29.78): KE = 6.16943; PE = 12.1704
+	Cooled KE by -3.46057; new KE = 2.70886
+Simulation stable at step 5000 (T = 30):	KE = 6.12944;	PE = 11.344	[PEf = 8.81041; PEs = 2.53355]
+Closing journal for annealing step.
+	Minimized PE by 2.03313;	 new PE = 9.31083
+Writing journal anneal minimum: results/aggregate-lh/min3.bin
+Writing journal RMSD: results/aggregate-lh/rmsd3.bin
+Heating system to goal KE = 5
+Running simulated annealing step 4:
+	KE0 = 34.6892;	PE0 = 9.31083;	E0 = 44
+Opening journal file: results/aggregate-lh/t=03.0.bin
+Simulation stable at step 1000 (T = 32):	KE = 14.9706;	PE = 15.1423	[PEf = 9.57139; PEs = 5.57093]
+Transitioning to journal file: results/aggregate-lh/t=03.1.bin
+Simulation stable at step 2000 (T = 34):	KE = 14.2268;	PE = 16.8331	[PEf = 11.372; PEs = 5.46102]
+Transitioning to journal file: results/aggregate-lh/t=03.2.bin
+Simulation stable at step 3000 (T = 36):	KE = 15.9271;	PE = 18.3321	[PEf = 12.4781; PEs = 5.85397]
+Transitioning to journal file: results/aggregate-lh/t=03.3.bin
+Simulation stable at step 4000 (T = 38):	KE = 17.828;	PE = 19.0512	[PEf = 13.03; PEs = 6.02124]
+Transitioning to journal file: results/aggregate-lh/t=03.4.bin
+Simulation stable at step 5000 (T = 40):	KE = 18.3199;	PE = 19.6606	[PEf = 13.5395; PEs = 6.12103]
+Closing journal for annealing step.
+	Minimized PE by 5.11307;	 new PE = 14.5475
+Writing journal anneal minimum: results/aggregate-lh/min4.bin
+Writing journal RMSD: results/aggregate-lh/rmsd4.bin
+4 annealing iterations finished with 5000 steps each.
