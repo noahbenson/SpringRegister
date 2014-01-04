@@ -43,10 +43,11 @@ examined by calling springs -h or springs --help. If you are running
 simulations whose jobs were exported by the Mathematica notebook, then
 these options will be specified for you, and you may simply execute
 the run.sh file that is written. Note that this script expects a
-certain directory structure in which <root>/jobs/<job>/run.sh is
-called from <root> and in which <root>/src contains the springs
-executable. This repository exemplifies this organization, and the
-jobs and results directories analyzed in Benson et al. are included.
+certain directory structure in which ROOT/jobs/JOB/run.sh is called
+from ROOT and in which ROOT/src contains the springs executable. This
+repository exemplifies this organization (i.e., this repository is a
+valid replacement for ROOT), and the jobs and results directories
+analyzed in Benson et al. are included.
 
 ## License #####################################################################
 
