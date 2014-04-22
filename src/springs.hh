@@ -22,6 +22,9 @@ namespace springs
    class system
    {
     public:
+      class atom;
+      class spring;
+      class field;
       
       // first, the class that represents an object or atom or whatever is being simulated
       class atom
@@ -178,6 +181,7 @@ namespace springs
       class field
       {
        public:
+         virtual ~field() {}
          // this function is called at the beginning of the simulation; it is suggested that
          // whatever subset of all the atoms the field might need be saved.
          virtual void init(const std::vector<atom*>& all_atoms, const std::vector<spring*>& all_springs) = 0;

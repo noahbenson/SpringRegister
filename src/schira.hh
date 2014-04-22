@@ -125,8 +125,8 @@ class schira:
          if (m_a <= 0) m_a = 0.001;
          if (m_b <= m_a) m_b = m_a + 0.001;
          m_logab = std::log(m_a/m_b);
-         if (m_psi > 0.05) m_psi = 0.05;
-         else if (m_psi < -0.05) m_psi = -0.05;
+         //if (m_psi > 0.05) m_psi = 0.05;
+         //else if (m_psi < -0.05) m_psi = -0.05;
          m_rot[0][0] = std::cos(m_psi);
          m_rot[0][1] = -std::sin(m_psi);
          m_rot[1][0] = -m_rot[0][1];
@@ -699,7 +699,7 @@ class schira:
    double full_minimize(double stepsz = 0.001)
    {
       double last5steps[5];
-      double tmp1, tmp2, pe, pe0;
+      double tmp1 = 0, tmp2 = 0, pe, pe0;
       unsigned ii, jj;
 
       pe0 = potential();
